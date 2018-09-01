@@ -1,2 +1,3 @@
 # hendanwedding
-Wedding website
+Wedding website - hendanwedding.com
+Hosted via Github pages
