@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  width: 100%;
+  font-family: monospace;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Qwigley', cursive;
+}
+
+h1 {
+  font-size: 10rem;
+  color: darkslategray;
+}
+
+h2 {
+  font-size: 5rem;
+}
+
+nav {
+  height: 5rem;
+  width: 100%;
+  background: none;
+  opacity: 0.5;
+  background: azure;
+  z-index: 100;
+  display: flex;
+  text-align: center;
+}
+
+nav ul a {
+  flex: 1 1 15%; /* increases the clickable area as opposed to using space-around */
+  line-height: 5rem; /* center the nav items */
+  text-decoration: none;
+  color: rgb(43, 42, 42);
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  font-size: 1.25rem;
+  font-weight: 550;
+}
+
+nav ul a:hover {
+  background: darkgreen;
+  color: floralwhite;
+}
+
+div {
+  outline: none;
+}
+
+#header__heading {
+  margin-bottom: 0;
+}
+
+#header__subheading {
+  margin-top: 0;
+}
+
+#header__rsvp {
+  margin-bottom: 2.5rem;
+}
+
+#wedding-details, #accomodations {
+  padding: 2rem 0 4rem 0;
+}
+
+.container--full-width {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+#rsvp .container--text {
+  padding: 180px 0 155px 0;
+}
+
+footer {
+  padding-bottom: 5rem;
+}
+
+footer div {
+  color: black;
+}
+
+.image1 {
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  background-image: url('images/leaves_background.jpg');
+}
+
+.image2 {
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  background-image: url('images/IMG_5290_resized.jpg');
+}
