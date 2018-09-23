@@ -70,6 +70,10 @@ div {
 }
 
 #header__rsvp {
+  margin-bottom: 1.5rem;
+}
+
+#header__password {
   margin-bottom: 2.5rem;
 }
 
@@ -114,4 +118,19 @@ footer div {
   background-position: center;
   background-size: cover;
   background-image: url('images/IMG_5290_resized.jpg');
+}
+
+.container--rsvp-text {
+  background-color: mintcream;
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .image2 {
+    display: none;
+  }
+
+  .container--rsvp-text {
+    display: block;
+  }
 }
